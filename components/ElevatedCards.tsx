@@ -4,7 +4,7 @@ import React from 'react';
 const ElevatedCards = () => {
   return (
     <View>
-      <Text style={styles.headingText}>ElevatedCards</Text>
+      <Text style={styles.headingText}>Elevated Cards</Text>
       <ScrollView horizontal={true} style={styles.container}>
         <View style={[styles.card, styles.cardElevated]}>
           <Text style={styles.text}>Tap</Text>
