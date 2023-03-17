@@ -15,7 +15,10 @@ const FancyCard = () => {
         <View style={styles.cardBody}>
           <Text style={styles.cardTitle}>The Taj Mahal</Text>
           <Text style={styles.cardLabel}>Agra, Uttar Pradesh</Text>
-          <Text style={styles.cardDescription}>The Taj Mahal is an Islamic ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India.</Text>
+          <Text style={styles.cardDescription}>
+            The Taj Mahal is an Islamic ivory-white marble mausoleum on the
+            right bank of the river Yamuna in Agra, Uttar Pradesh, India.
+          </Text>
           <Text style={styles.cardFooter}>12 mins away</Text>
         </View>
       </View>
@@ -50,30 +53,30 @@ const styles = StyleSheet.create({
     height: 200,
     marginBottom: 8,
     borderTopLeftRadius: 6,
-    borderTopRightRadius: 6
+    borderTopRightRadius: 6,
   },
   cardBody: {
     flex: 1,
     flexGrow: 1,
-    paddingHorizontal: 12
+    paddingHorizontal: 12,
   },
   cardTitle: {
     color: '#000000',
     fontSize: 22,
     fontWeight: 'bold',
-    marginBottom: 4
+    marginBottom: 4,
   },
   cardLabel: {
     color: '#000000',
     fontSize: 14,
-    marginBottom: 6
+    marginBottom: 6,
   },
   cardDescription: {
     color: '#242B2E',
     fontSize: 12,
     marginBottom: 12,
     marginTop: 6,
-    flexShrink: 1
+    flexShrink: 1,
   },
   cardFooter: {
     color: '#000000',
